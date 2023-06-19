@@ -1,0 +1,5 @@
+.guess-area{
+    border: solid;
+    overflow: scroll;
+    height: 500px;
+}

@@ -1,0 +1,191 @@
+body{
+    margin: auto 10px;
+    padding-top: 10px;
+    text-align: center;
+    font-family: Schoolbell,Helvetica,Arial,sans-serif;
+    background-color: #fae1dd;
+    font-size: 3vh;
+}
+
+.home{
+  margin-top: 10vh;
+}
+
+.team-division{
+  margin-top: 10vh;
+}
+
+
+
+.custom-btn{
+  height: 5vh;
+  background-color: #bdb2ff;
+  color: black;
+  border: none;
+  border-radius: 12px;
+  padding: 0px 20px;
+}
+
+.custom-btn:hover{
+  height: 5vh;
+  background-color: #6930c3;
+  color: white;
+  
+}
+
+.start-game-btn{
+  background-color: #6930c3;
+  color: white;
+}
+
+
+
+.join-team-btn{
+  background-color: #bdb2ff;
+}
+
+.title{
+  font-size: 10vh;
+}
+
+.title, .input-name, .teams, .center{
+    text-align: center;
+}
+
+.input-name{
+    margin-bottom: 30px;
+}
+
+.input-name-heading{
+  font-size: 3.5vh;
+}
+
+.input-name-textbox{
+  font-size: 3vh;
+  border: 1px solid;
+  text-align: center; 
+}
+
+.teams-row{
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.InputMovieActorName{
+    margin-top: 40%;
+    font-size: 3vh;
+}
+
+.choose-actor, .choose-movie{
+  font-size: 3.5vh;
+}
+
+.control-btn{
+  background-color: #ad55b6;
+  height: 5vh;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  padding: 0 1.2vw;
+}
+
+.submit-btn{
+  background-color: #6930c3;
+  color: white;
+}
+
+.timer{
+  padding: 10px;
+  margin-bottom: 0px;
+}
+
+.guessing-area{
+  margin-top: 6px;
+  text-align: left;
+}
+
+#videos{
+    height: 76vh;
+    width: 84vw;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(440px, 1fr));
+    
+    align-items: center;
+  }
+  
+  .vid{
+    background-color:black;
+    height: 95%;
+    width: 95%;
+    border-width: 1px;
+    border-color: #38373A;
+    border-style: solid;
+  }
+  
+  .controls{
+    margin: 8px auto;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    align-items: center;
+    justify-items: center;
+    width: 500px;
+    max-width: 60vw;
+  }
+  
+  .controls p{
+    padding: 10px;
+    cursor: pointer;
+    background: #38373A;
+    color: #F7F7F7;
+    border-width: 1px;
+    border-color: #F7F7F7;
+    border-style: solid;
+  }
+  
+  .controls p.on{
+    background: #F7F7F7;
+    color: #38373A;
+    border-width: 1px;
+    border-color: #38373A;
+    border-style: solid;
+  }
+  
+  .join{
+    position: absolute;
+    z-index: 1;
+    width: 30vw;
+    height: fit-content;
+    height: -moz-max-content;
+    top: 50vh;
+    left: 50vw;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    max-width: 75vw;
+  }
+  
+  .join  input{
+    padding: 15px;
+    font-size: 1rem;
+    border-width: 1px;
+    border-color: #38373A;
+    border-style: solid;
+    width: 80%;
+    display: block;
+    margin:  50px auto;
+  }
+  
+  .join  button{
+    min-width: 200px;
+    padding: 12px 0;
+    text-align: center;
+    background-color: #38373A;
+    color: #F7F7F7;
+    border-width: 1px;
+    border-color: #F7F7F7;
+    border-style: solid;
+    font-size: 1rem;
+    font-weight: 400;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+  }
